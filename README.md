@@ -1,0 +1,4 @@
+configeasy
+==========
+
+TODO: documentation

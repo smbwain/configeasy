@@ -1,0 +1,29 @@
+{
+    "extends": "tslint:recommended",
+    "rulesDirectory": [
+        "src/"
+    ],
+    "rules": {
+        "quotemark": [true, "single"],
+        "max-line-length": {
+            "options": [
+                120
+            ]
+        },
+        "max-classes-per-file": false,
+        "object-literal-sort-keys": false,
+        "new-parens": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        "no-console": true,
+        "interface-name" : [true, "never-prefix"]
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [
+                120
+            ]
+        }
+    }
+}

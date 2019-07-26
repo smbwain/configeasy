@@ -1,0 +1,33 @@
+{
+  "name": "configeasy",
+  "version": "0.0.1",
+  "description": "Config reader",
+  "main": "dist/config.js",
+  "types": "dist/config.d.ts",
+  "devDependencies": {
+    "@types/mocha": "5.2.0",
+    "@types/node": "8.10.10",
+    "mocha": "5.1.1",
+    "source-map-support": "^0.5.12",
+    "tslint": "5.9.1",
+    "typescript": "2.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha dist/tests",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smbwain/configeasy.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "Roman Ditchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smbwain/configeasy/issues"
+  },
+  "homepage": "https://github.com/smbwain/configeasy#readme"
+}
